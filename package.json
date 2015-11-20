@@ -1,19 +1,13 @@
 {
   "name": "pseudo-classes",
-  "description": "List of all CSS pseudo-classes.",
+  "description": "Get a list of all CSS pseudo-classes.",
   "author": "John Otander",
   "version": "0.0.1",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "mocha test"
+    "test": "ava"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/johnotander/pseudo-classes.git"
-  },
+  "repository": "johnotander/pseudo-classes",
   "keywords": [
     "css",
     "pseudo-classes",
@@ -21,12 +15,8 @@
     "pseudo"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/johnotander/pseudo-classes/issues"
-  },
-  "homepage": "https://github.com/johnotander/pseudo-classes",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "ava": "*"
   }
 }

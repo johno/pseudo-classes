@@ -1,7 +1,7 @@
-var assert = require('assert');
-var pseudoClasses = require('..');
+import test from 'ava'
+import pseudoClasses from './'
 
-var classes = [
+const classes = [
   'active',
   'checked',
   'default',
@@ -41,11 +41,10 @@ var classes = [
   'target',
   'valid',
   'visited'
-];
+]
 
-describe('pseudo-classes', function() {
+test('returns a list of all pseudo-classes', t => {
+  t.plan(1)
 
-  it('should return a list of all pseudo-classes', function() {
-    assert.deepEqual(pseudoClasses(),  classes);
-  });
-});
+  t.same(pseudoClasses(), classes)
+})
