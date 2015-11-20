@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-module.exports = function pseudoClasses() {
+module.exports = function pseudoClasses () {
   return [
     'active',
     'checked',
@@ -41,5 +41,5 @@ module.exports = function pseudoClasses() {
     'target',
     'valid',
     'visited'
-  ];
+  ]
 }
