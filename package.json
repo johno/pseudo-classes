@@ -4,6 +4,9 @@
   "author": "John Otander",
   "version": "0.0.1",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "ava"
   },
