@@ -13,7 +13,7 @@ npm install --save pseudo-classes
 ```javascript
 var pseudoClasses = require('pseudo-classes')
 
-pseudoClasses  // => ['active', 'checked', 'default', 'dir', ...]
+pseudoClasses()  // => ['active', 'checked', 'default', 'dir', ...]
 ```
 
 ## License
