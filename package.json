@@ -2,7 +2,7 @@
   "name": "pseudo-classes",
   "description": "Get a list of all CSS pseudo-classes.",
   "author": "John Otander",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "files": [
     "index.js"
